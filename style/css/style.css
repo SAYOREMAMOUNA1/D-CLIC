@@ -1,0 +1,283 @@
+.carousel-item {
+    transition:opacity 2s ease;
+  }
+  .carousel-item.active,
+  .carousel-item-next,
+  .carousel-item-prev {
+    opacity: 1;
+  }
+  .carousel-item-next:not(.carousel-item-left),
+  .active.carousel-item-right {
+    opacity: 0;
+  }
+  
+  .carousel-item-prev:not(.carousel-item-right),
+  .active.carousel-item-left {
+    opacity: 0;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    width: 350px;
+    height: 50px;
+    margin-top: 0px;
+  }
+  .logo_main{
+    margin-top: 65px;
+    margin-left: 50px; 
+  }
+  .so{
+     display: flex; 
+    margin-left: 550px;
+    margin-top: 19px;
+    font-size: 20px
+  }
+  .ac{
+    display: flex; 
+   margin-left: 1000px;
+   margin-top: -20px;
+   font-size: 20px;
+ }
+ button{
+  background-color: rgb(250, 7, 7);
+  font-size: 23px;
+  border: none ;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }
+ .acces{
+  color: white;
+ }
+ .navbar_1{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 90px;
+  color: black;
+ }
+ .bf{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: -5px;
+ }
+ .bne{
+  margin-left: 500px; 
+ }
+
+ .grise{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(230, 226, 226);
+  height: 430px;
+ }
+ .gris{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(230, 226, 226);
+  height: 430px;
+  margin-top: 40px;
+ }
+ .maimouna{
+  height: 138px;
+ }
+ .groupe{
+  height: 138px;
+ }
+ .blo{
+  height: 145px;
+ }
+ .blo6{
+  height: 145px;
+ }
+ 
+ 
+ .for{
+  /* font-size: 20px; */
+  margin-left: 500px;
+  margin-top: 10px; 
+ }
+
+ .ivoir{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: -5px;
+ }
+ .tchad{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: -5px;
+ }
+ .dji{
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: -5px; 
+ }
+ .programme{
+  font-size: 15px;
+  margin-top: -10px;
+ }
+ .phase{
+  font-size: 15px;
+  margin-top: -10px;
+ }
+ .projet{
+  font-size: 15px;
+  margin-top: -10px;
+ }
+ .deuxieme{
+  font-size: 15px;
+  margin-top: -10px;
+ }
+ 
+ #carouselExampleDark{
+  width: 85%;
+  margin-left: 90px;
+ }
+ .container_card{
+  display: flex;
+  margin-top: 15px;
+  margin-left: 86px;
+  justify-content: center;
+  width: 85%;
+  gap: 20px;
+  height: 300px;
+ }
+ .container_card_1{
+  margin-top: 55px;
+  margin-left: 80px;
+  z-index: -1;
+ }
+ .container_card_2{
+  margin-left: 450px;
+ z-index: 2;
+ margin-top: -240px;
+ }
+ .container_input{
+  background-color: rgba(184, 184, 184, 0.342);
+  width: 600px;
+  height: 270px;
+  margin-top: 60px;
+  margin-left: 80px
+ }
+ .input-1{
+  margin-left: 230px
+ }
+ input{
+  width: 90px;
+  outline: none;
+ }
+ .nous{
+  font-size: 5px;
+  margin-right: 1000px;
+ }
+ .trouver{
+  font-size: 8px;
+  margin-right: 1000px;
+  margin-top: 15px;
+ }
+ .logo2{
+  margin-right: 1000px;
+  width: 80px;
+  height: 80px;
+ }
+ .site{
+  margin-top: -2px;
+  margin-left: 150px;
+  height: 35px; 
+ }
+ .suivre{
+  font-size: 20px;
+  margin-right: -10px;
+ }
+ .reduc{
+  width: 125px;
+ }
+ .bordure{
+  border-right: white solid 2px;
+ }
+ .co{
+  font-size: 10px;
+ }
+ .cr{
+  font-size: 10px;
+ }
+ .carte{
+  margin-left: 600px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+ }
+ .mon input{
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(231, 230, 230)
+ }
+ .prenom input{
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(231, 230, 230)
+ }
+ .email input{
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(231, 230, 230)
+ }
+ .message input{
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(231, 230, 230)
+ }
+ .envoyez{
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+
+ }
+ .noire{
+  background-color: black;
+  width: 100%;
+  height: 350px;
+}
+.grp1{
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.grp2{
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.grp3{
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.REVI{
+ position: relative;
+ top: 30px;
+ margin-left: 600px;
+}
+.grp4 img{
+ margin-top: 130px;
+ width: 40px;
+ height: 40px;
+ margin-left: 100px;
+}
